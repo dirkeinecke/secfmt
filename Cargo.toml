@@ -1,0 +1,13 @@
+[package]
+name = "secfmt"
+version = "0.1.0"
+authors = ["Dirk Einecke"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/dirkeinecke/secfmt"
+edition = "2018"
+description = "Converts seconds into a readable format (struct) containing years, days, hours, minutes and seconds."
+keywords = ["seconds", "convert", "format", "years", "days", "hours", "minutes"]
+categories = ["date-and-time", "value-formatting", "development-tools"]
+
+[dependencies]
