@@ -1,5 +1,7 @@
 # secfmt
 
+[![API](https://docs.rs/rand/badge.svg)](https://docs.rs/secfmt)
+
 Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 
 ## Usage
