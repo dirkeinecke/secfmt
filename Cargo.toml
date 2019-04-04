@@ -6,8 +6,8 @@ license = "MIT"
 readme = "README.md"
 repository = "https://github.com/dirkeinecke/secfmt"
 edition = "2018"
-description = "Converts seconds into a readable format (struct) containing years, days, hours, minutes and seconds."
-keywords = ["seconds", "convert", "format", "years", "days", "hours", "minutes"]
+description = "Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds."
+keywords = ["seconds", "convert", "human", "years", "readable"]
 categories = ["date-and-time", "value-formatting", "development-tools"]
 
 [dependencies]

@@ -1,6 +1,6 @@
 //! # secfmt
 //!
-//! `secfmt` converts seconds into a readable format (struct) containing years, days, hours, minutes and seconds.
+//! `secfmt` converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 
 #[derive(Debug)]
 pub struct Secfmt {
@@ -11,7 +11,7 @@ pub struct Secfmt {
     pub seconds: u8,
 }
 
-/// Converts seconds into a readable format (struct) containing years, days, hours, minutes and seconds.
+/// Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 ///
 /// # Examples
 ///
