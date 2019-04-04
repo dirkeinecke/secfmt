@@ -11,5 +11,9 @@ edition = "2018"
 description = "Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds."
 keywords = ["seconds", "convert", "human", "years", "readable"]
 categories = ["date-and-time", "value-formatting", "development-tools"]
+exclude = ["/.travis.yml", ".gitignore"]
+
+[badges]
+travis-ci = { repository = "dirkeinecke/secfmt" }
 
 [dependencies]
