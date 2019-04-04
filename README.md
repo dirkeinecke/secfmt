@@ -1,5 +1,6 @@
 # secfmt
 
+[![Build Status](https://travis-ci.org/dirkeinecke/secfmt.svg?branch=master)](https://travis-ci.org/dirkeinecke/secfmt)
 [![Crate](https://img.shields.io/crates/v/secfmt.svg)](https://crates.io/crates/secfmt)
 [![API](https://docs.rs/secfmt/badge.svg)](https://docs.rs/secfmt)
 
