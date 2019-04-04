@@ -15,7 +15,7 @@ Add this to your `Cargo.toml`:
 secfmt = "0.1"
 ```
 
-# Example
+## Example
 
 ```rust
 let seconds = 31537529;
