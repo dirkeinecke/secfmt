@@ -15,6 +15,19 @@ Add this to your `Cargo.toml`:
 secfmt = "0.1"
 ```
 
+# Examples
+
+```rust
+let seconds = 31537529;
+let seconds_human_readable = secfmt::from(seconds);
+
+assert_eq!(1, secfmt::from(31537529).years);
+assert_eq!(0, secfmt::from(31537529).days);
+assert_eq!(0, secfmt::from(31537529).hours);
+assert_eq!(25, secfmt::from(31537529).minutes);
+assert_eq!(29, secfmt::from(31537529).seconds);
+```
+
 # License
 
 secfmt is distributed under the terms of the MIT license.
