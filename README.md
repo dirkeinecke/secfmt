@@ -1,6 +1,6 @@
 # secfmt
 
-Converts seconds into a readable format (struct) containing years, days, hours, minutes and seconds.
+Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 
 ## Usage
 
