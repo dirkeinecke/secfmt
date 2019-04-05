@@ -80,4 +80,11 @@ mod tests {
     fn test_seconds() {
         assert_eq!(29, from(31537529).seconds);
     }
+
+    #[test]
+    fn test_format() {
+        let shr = from(31537529);
+        let s = format!("{}y {}d {}h {}m {}s", shr.years, shr.days, shr.hours, shr.minutes, shr.seconds);
+        assert_eq!("1y 0d 0h 25m 29s", s);
+    }
 }
