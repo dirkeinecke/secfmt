@@ -51,7 +51,7 @@ assert_eq!("1y 0d 0h 25m 29s", s);
 
 ## Getting help
 
-If you have questions or problems with `secfmt`, then I'm happy to respond to [GitHub issues][issues].
+If you have questions or problems with `secfmt`, then I'm happy to respond to [GitHub issues](https://github.com/dirkeinecke/secfmt/issues/new).
 
 ## License
 
