@@ -1,6 +1,7 @@
 # secfmt
 
 [![Build Status](https://travis-ci.org/dirkeinecke/secfmt.svg?branch=master)](https://travis-ci.org/dirkeinecke/secfmt)
+[![Coverage Status](https://coveralls.io/repos/github/dirkeinecke/secfmt/badge.svg?branch=master)](https://coveralls.io/github/dirkeinecke/secfmt?branch=master)
 [![Crate](https://img.shields.io/crates/v/secfmt.svg)](https://crates.io/crates/secfmt)
 [![API](https://docs.rs/secfmt/badge.svg)](https://docs.rs/secfmt)
 ![License](https://img.shields.io/crates/l/secfmt.svg)
