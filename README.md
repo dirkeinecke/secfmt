@@ -3,6 +3,7 @@
 [![Build Status](https://travis-ci.org/dirkeinecke/secfmt.svg?branch=master)](https://travis-ci.org/dirkeinecke/secfmt)
 [![Crate](https://img.shields.io/crates/v/secfmt.svg)](https://crates.io/crates/secfmt)
 [![API](https://docs.rs/secfmt/badge.svg)](https://docs.rs/secfmt)
+![License](https://img.shields.io/crates/l/secfmt.svg)
 
 Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 
