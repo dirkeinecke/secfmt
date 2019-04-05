@@ -15,7 +15,13 @@ Add this to your `Cargo.toml`:
 secfmt = "0.1"
 ```
 
-## Example
+Add this to your `*.rs` file:
+
+```rust
+extern crate secfmt;
+```
+
+Now you can proceed as follows:
 
 ```rust
 let seconds = 31537529;
