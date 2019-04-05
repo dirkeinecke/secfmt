@@ -48,7 +48,11 @@ let s = format!("{}y {}d {}h {}m {}s", shr.years, shr.days, shr.hours, shr.minut
 assert_eq!("1y 0d 0h 25m 29s", s);
 ```
 
-# License
+## Getting help
+
+If you have questions or problems with `secfmt`, then I'm happy to respond to [GitHub issues][issues].
+
+## License
 
 secfmt is distributed under the terms of the MIT license.
 
