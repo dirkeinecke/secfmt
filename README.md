@@ -4,6 +4,7 @@
 [![Crate](https://img.shields.io/crates/v/secfmt.svg)](https://crates.io/crates/secfmt)
 [![API](https://docs.rs/secfmt/badge.svg)](https://docs.rs/secfmt)
 ![License](https://img.shields.io/crates/l/secfmt.svg)
+[![Gitter](https://badges.gitter.im/secfmt/community.svg)](https://gitter.im/secfmt/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
 
 Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds.
 
