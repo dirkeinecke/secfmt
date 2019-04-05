@@ -53,10 +53,10 @@ assert_eq!("1y 0d 0h 25m 29s", s);
 
 ## Getting help
 
-If you have questions or problems with `secfmt`, then I'm happy to respond to [GitHub issues](https://github.com/dirkeinecke/secfmt/issues/new).
+If you have questions or problems with `secfmt`, then we are happy to respond to [GitHub issues](https://github.com/dirkeinecke/secfmt/issues/new) or come chat with us on our [Gitter channel](https://gitter.im/secfmt/community) - if you have any questions about the project, or just want to say hi!
 
 ## License
 
-secfmt is distributed under the terms of the MIT license.
+`secfmt` is distributed under the terms of the MIT license.
 
 See [LICENSE](LICENSE) for details.
