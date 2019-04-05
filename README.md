@@ -23,15 +23,29 @@ extern crate secfmt;
 
 Now you can proceed as follows:
 
+### Example 1
+
 ```rust
 let seconds = 31537529;
 let seconds_human_readable = secfmt::from(seconds);
+```
 
+### Example 2
+
+```rust
 assert_eq!(1, secfmt::from(31537529).years);
 assert_eq!(0, secfmt::from(31537529).days);
 assert_eq!(0, secfmt::from(31537529).hours);
 assert_eq!(25, secfmt::from(31537529).minutes);
 assert_eq!(29, secfmt::from(31537529).seconds);
+```
+
+### Example 3
+
+```rust
+let shr = secfmt::from(31537529);
+let s = format!("{}y {}d {}h {}m {}s", shr.years, shr.days, shr.hours, shr.minutes, shr.seconds);
+assert_eq!("1y 0d 0h 25m 29s", s);
 ```
 
 # License
