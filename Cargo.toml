@@ -1,15 +1,15 @@
 [package]
 name = "secfmt"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Dirk Einecke"]
 license = "MIT"
 readme = "README.md"
 repository = "https://github.com/dirkeinecke/secfmt"
-documentation = "https://docs.rs/secfmt/0.1.0/secfmt/"
+documentation = "https://docs.rs/secfmt/0.1.1/secfmt/"
 homepage = "https://crates.io/crates/secfmt"
 edition = "2018"
 description = "Converts seconds into a human readable format (struct) containing years, days, hours, minutes and seconds."
-keywords = ["seconds", "convert", "human", "years", "readable"]
+keywords = ["seconds", "convert", "human", "time", "readable"]
 categories = ["date-and-time", "value-formatting", "development-tools"]
 exclude = ["/.travis.yml", ".gitignore"]
 
