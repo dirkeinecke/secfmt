@@ -3,7 +3,7 @@
 [![Build Status](https://travis-ci.org/dirkeinecke/secfmt.svg?branch=master)](https://travis-ci.org/dirkeinecke/secfmt)
 [![Coverage Status](https://coveralls.io/repos/github/dirkeinecke/secfmt/badge.svg?branch=master)](https://coveralls.io/github/dirkeinecke/secfmt?branch=master)
 [![Crate](https://img.shields.io/crates/v/secfmt.svg)](https://crates.io/crates/secfmt)
-[![Crates.io (Downloads)][downloads-badge]][crates-io]
+[![Crates.io (Downloads)](https://img.shields.io/crates/d/secfmt.svg)](https://crates.io/crates/secfmt)
 [![API](https://docs.rs/secfmt/badge.svg)](https://docs.rs/secfmt)
 ![License](https://img.shields.io/crates/l/secfmt.svg)
 [![Gitter](https://badges.gitter.im/secfmt/community.svg)](https://gitter.im/secfmt/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)
