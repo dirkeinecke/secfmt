@@ -52,6 +52,40 @@ let s = format!("{}y {}d {}h {}m {}s", shr.years, shr.days, shr.hours, shr.minut
 assert_eq!("1y 0d 0h 25m 29s", s);
 ```
 
+### Example 4
+
+```rust
+let shr = secfmt::from(31537529);
+let mut duration = String::new();
+match shr.years {
+    0 => {},
+    1 => duration.push_str(&format!("{} year ", shr.years)),
+    _ => duration.push_str(&format!("{} years ", shr.years)),
+}
+match shr.days {
+    0 => {},
+    1 => duration.push_str(&format!("{} day ", shr.days)),
+    _ => duration.push_str(&format!("{} days ", shr.days)),
+}
+match shr.hours {
+    0 => {},
+    1 => duration.push_str(&format!("{} hour ", shr.hours)),
+    _ => duration.push_str(&format!("{} hours ", shr.hours)),
+}
+match shr.minutes {
+    0 => {},
+    1 => duration.push_str(&format!("{} minute ", shr.minutes)),
+    _ => duration.push_str(&format!("{} minutes ", shr.minutes)),
+}
+match shr.seconds {
+    0 => {},
+    1 => duration.push_str(&format!("{} second ", shr.seconds)),
+    _ => duration.push_str(&format!("{} seconds ", shr.seconds)),
+}
+
+assert_eq!("1 year 25 minutes 29 seconds", duration.trim_end());
+```
+
 ## Getting help
 
 If you have questions or problems with `secfmt`, then we are happy to respond to [GitHub issues](https://github.com/dirkeinecke/secfmt/issues/new) or come chat with us on our [Gitter channel](https://gitter.im/secfmt/community) - if you have any questions about the project, or just want to say hi!
